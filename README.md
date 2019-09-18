@@ -1,4 +1,4 @@
-# ThreeJsPractices
+# Three.jsPractices
 
 ### Tutorials I used:
   - http://www.hewebgl.com/article/articledir/1
