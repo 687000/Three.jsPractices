@@ -12,8 +12,8 @@
 Cameras（照相机，控制投影方式）
 
     Camera
-    OrthographicCamera
-    PerspectiveCamera
+    OrthographicCamera （正交投影）
+    PerspectiveCamera （透视投影）
 
 Core（核心对象）
 
