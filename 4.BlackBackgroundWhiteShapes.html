@@ -19,6 +19,13 @@
           var renderer = new THREE.WebGLRenderer({
               canvas: document.getElementById('canvas-frame')
           });
+            /*  var renderer = new THREE.WebGLRenderer();
+                renderer.setSize(400, 300);
+                document.getElementsByTagName('body')[0].appendChild(renderer.domElement);
+                如果不先定义canvas
+                上面代码的第二行表示设置Canvas的宽400像素，高300像素。第三行将渲染器对应的Canvas元素添加到<body>中
+                
+            */
           renderer.setClearColor(0x000000); // black
 
           var scene = new THREE.Scene();
