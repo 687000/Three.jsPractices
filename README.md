@@ -13,6 +13,7 @@ Cameras（照相机，控制投影方式）
 
     Camera
     OrthographicCamera （正交投影）
+    （横向缩小 可视放大 位置右移 可视左移）
     PerspectiveCamera （透视投影）
 
 Core（核心对象）
