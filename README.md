@@ -1,13 +1,13 @@
 # ThreeJsPractices
 
-## Tutorials I used:
+### Tutorials I used:
   - http://www.hewebgl.com/article/articledir/1
   - https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene
   - https://www.udacity.com/course/interactive-3d-graphics--cs291
   - https://read.douban.com/reader/ebook/7412854/
   
 
-##Three.js 功能概况
+### Three.js 功能概况
   
 Cameras（照相机，控制投影方式）
 
