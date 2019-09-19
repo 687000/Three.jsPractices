@@ -41,6 +41,23 @@ Core（核心对象）
     Projector
     Raycaster（计算鼠标拾取物体时很有用的对象）
 
+Materials（材质，控制物体的颜色、纹理等）
+
+    Material
+    LineBasicMaterial
+    LineDashedMaterial
+    MeshBasicMaterial
+    MeshDepthMaterial
+    MeshFaceMaterial
+    MeshLambertMaterial
+    MeshNormalMaterial
+    MeshPhongMaterial
+    ParticleBasicMaterial
+    ParticleCanvasMaterial
+    ParticleDOMMaterial
+    ShaderMaterial
+    SpriteMaterial
+
 Lights（光照）
 
     Light
@@ -61,23 +78,6 @@ Loaders（加载器，用来加载特定文件）
     LoadingMonitor
     SceneLoader
     TextureLoader
-
-Materials（材质，控制物体的颜色、纹理等）
-
-    Material
-    LineBasicMaterial
-    LineDashedMaterial
-    MeshBasicMaterial
-    MeshDepthMaterial
-    MeshFaceMaterial
-    MeshLambertMaterial
-    MeshNormalMaterial
-    MeshPhongMaterial
-    ParticleBasicMaterial
-    ParticleCanvasMaterial
-    ParticleDOMMaterial
-    ShaderMaterial
-    SpriteMaterial
 
 Math（和数学相关的对象）
 
