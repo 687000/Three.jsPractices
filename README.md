@@ -46,12 +46,12 @@ Materials（材质，控制物体的颜色、纹理等）
     Material
     LineBasicMaterial
     LineDashedMaterial
-    MeshBasicMaterial
+    MeshBasicMaterial (始终为该材质的颜色，不会由于光照产生明暗、阴影效果)
     MeshDepthMaterial
     MeshFaceMaterial
-    MeshLambertMaterial
-    MeshNormalMaterial
-    MeshPhongMaterial
+    MeshLambertMaterial （考虑漫反射而不考虑镜面反射的效果，因而对于金属、镜子等需要镜面反射效果的物体就不适应）
+    MeshNormalMaterial （将材质的颜色设置为其法向量的方向，对于调试很有帮助）
+    MeshPhongMaterial (考虑漫反射高光 specular高光颜色 shininess越大光斑越小)
     ParticleBasicMaterial
     ParticleCanvasMaterial
     ParticleDOMMaterial
