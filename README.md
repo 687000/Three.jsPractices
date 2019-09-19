@@ -28,6 +28,9 @@ Core（核心对象）
     Face3
     Face4
     Geometry
+      THREE.CubeGeometry(width, height, depth, widthSegments, heightSegments, depthSegments)  
+      width:x height:y 后三个参数分别是在三个方向上的分段数，widthSegments为3的话，代表x方向上水平分为三份（只是面被分）
+
     Object3D
     Projector
     Raycaster（计算鼠标拾取物体时很有用的对象）
