@@ -18,6 +18,7 @@ Cameras（照相机，控制投影方式）
          
     PerspectiveCamera （透视投影）
          THREE.PerspectiveCamera(fov, aspect, near, far)
+         (张角缩小 可视放大）
 
 Core（核心对象）
 
