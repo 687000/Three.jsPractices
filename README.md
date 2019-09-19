@@ -29,14 +29,14 @@ Core（核心对象）
     Face4
     Geometry
       THREE.CubeGeometry(width, height, depth, widthSegments, heightSegments, depthSegments)  
-      width:x height:y 后三个参数分别是在三个方向上的分段数，widthSegments为3的话，代表x方向上水平分为三份（只是面被分）
+      （width:x height:y 后三个参数分别是在三个方向上的分段数，widthSegments为3的话，代表x方向上水平分为三份，只是面被分）
       THREE.PlaneGeometry(width, height, widthSegments, heightSegments)
       THREE.SphereGeometry(radius, segmentsWidth, segmentsHeight, phiStart, phiLength, thetaStart, thetaLength)
-      segmentsWidth经度上的切片数；segmentsHeight纬度上的切片数；phiStart经度开始的弧度；phiLength经度跨过的弧度；thetaStart纬度
+      （segmentsWidth经度上的切片数；segmentsHeight纬度上的切片数；phiStart经度开始的弧度；phiLength经度跨过的弧度；thetaStart纬度）
       THREE.CircleGeometry(radius, segments, thetaStart, thetaLength)
       THREE.CylinderGeometry(radiusTop, radiusBottom, height, radiusSegments, heightSegments, openEnded)
       THREE.TorusGeometry(radius, tube, radialSegments, tubularSegments, arc)
-      tube 管道半径 radialSegments管道小圆分 tubularSegments 大圆环分 
+      （tube 管道半径 radialSegments管道小圆分 tubularSegments 大圆环分）
     Object3D
     Projector
     Raycaster（计算鼠标拾取物体时很有用的对象）
