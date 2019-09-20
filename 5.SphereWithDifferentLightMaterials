@@ -15,3 +15,12 @@
 
         </style>
         <script>
+
+
+        </script>
+    </head>
+
+    <body onload="init();">
+        <!--canvas id="canvas-frame"></canvas-->
+    </body>
+</html>
