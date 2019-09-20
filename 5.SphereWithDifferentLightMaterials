@@ -45,6 +45,15 @@
                     })
             );*/
             scene.add(cube);
+            
+            var light = new THREE.DirectionalLight();
+            light.position.set(2, 5, 3);
+            scene.add(light);
+            
+            renderer.render(scene, camera);
+            var light = new THREE.LambertLight(0xFF0000, 1.0, 0);
+            light.position.set(100, 100, 200);
+            scene.add(light);
         }
 
         </script>
