@@ -37,6 +37,7 @@ Core（核心对象）
       THREE.CylinderGeometry(radiusTop, radiusBottom, height, radiusSegments, heightSegments, openEnded)
       THREE.TetrahedronGeometry(radius, detail)
       （正四面体）
+      THREE.OctahedronGeometry(radius, detail)
       THREE.TorusGeometry(radius, tube, radialSegments, tubularSegments, arc)
       （tube 管道半径 radialSegments管道小圆分 tubularSegments 大圆环分）
       THREE.TorusKnotGeometry(radius, tube, radialSegments, tubularSegments, p, q, heightScale)
