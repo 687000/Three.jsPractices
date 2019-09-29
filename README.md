@@ -35,6 +35,7 @@ Core（核心对象）
       （segmentsWidth经度上的切片数；segmentsHeight纬度上的切片数；phiStart经度开始的弧度；phiLength经度跨过的弧度；thetaStart纬度）
       THREE.CircleGeometry(radius, segments, thetaStart, thetaLength)
       THREE.CylinderGeometry(radiusTop, radiusBottom, height, radiusSegments, heightSegments, openEnded)
+      THREE.TetrahedronGeometry(radius, detail)
       THREE.TorusGeometry(radius, tube, radialSegments, tubularSegments, arc)
       （tube 管道半径 radialSegments管道小圆分 tubularSegments 大圆环分）
       THREE.TorusKnotGeometry(radius, tube, radialSegments, tubularSegments, p, q, heightScale)
